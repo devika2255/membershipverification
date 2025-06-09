@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
       try {
         const result = JSON.parse(responseText); // Attempt to parse JSON
         if (response.ok) {
-          window.location.href = "https://biaw-stage-api.webflow.io/member-confirmation";
+          window.location.href = "https://biaw-stage-api-e2c83eb8ec4f7fa18e3c274d.webflow.io/member-confirmation";
         } else {
           alert(result.error || "Verification failed. Please try again.");
         }
