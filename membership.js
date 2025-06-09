@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       verifyButton.disabled = true;
       verifyButton.textContent = "Verifying...";
 
-      const response = await fetch("https://new-member-api.onrender.com/update-company-id", {
+      const response = await fetch("https://membershipverification.onrender.com/update-company-id", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, companyId }),
